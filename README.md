@@ -29,9 +29,35 @@ We created 3 features:
 - Monetary: we grouped by customer and evaluated the monetary by summing the payment values.
 
 ### Clustering
+We scaled the data with a Standard Scaler.
+We used the K-Means algorithm and the Hierarchical Clustering algorithm.
+The results were very similar but in terms of computational cost the K-Means algorithm was the best choice.
+To choose the best number of clusters we used the elbow method and the KneeLocator algorithm.
 
 ## Experimental Design
 
 ## Results
+The results are the following:
+We identified 5 clusters.
+* **Cluster 0: Blue**
+
+  This cluster has the `highest monetary value`, the `2rd highest recency value`, it has the `highest frequency` but it has only `few observations (28)`.
+
+* **Cluster 1: Orange** 
+
+  This is the cluster with the `most recent purchases`, but is has the `lowest monetary value` and the `lowest frequency`. It is the cluster with `the most observations`.
+
+* **Cluster 2: Green**
+
+  This is the cluster with the `highest recency value (longer time since last buy)`, and has the `2nd lowest monetary value` and the `2nd lowest frequency`. It is the `2nd cluster by size`.
+
+* **Cluster 3: Red**
+
+  This cluster has the `3nd lowest recency` and has the `2nd highest monetary value`. It has the `2nd highest frequency` but it has `few observations`.
+
+* **Cluster 4: Purple**
+
+  This cluster has the `2nd highest recency`, it has the `3rd highest monetary value` and it has a `medium frequency`. It has `a medium amount of observations`.
+
 
 ## Conclusions
