@@ -12,7 +12,7 @@ Fraia
 
 ## Introduction
 The aim of this project is to predict the customer segmentation based on the RFM analysis. The RFM analysis is a measure of the frequency, recency and monetary of purchases of the same customer.
-We started with an Exploratory Data Analysis with the aim of vchecking the presence of null values, duplivates and check the distributions of the features. 
+We started with an Exploratory Data Analysis with the aim of checking the presence of null values, duplivates and check the distributions of the features. 
 We then used the RFM analysis to predict the customer segmentation.
 At the end we clustered the customers based on their RFM values obtained before.
 
