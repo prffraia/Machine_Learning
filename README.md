@@ -38,6 +38,9 @@ To choose the best number of clusters we used the elbow method and the KneeLocat
 
 ## Experimental Design
 
+List here both the Kmeans and the Hierarchical Clustering.
+explain the comparison.
+
 ## Results
 The results are the following:
 We identified 5 clusters.
