@@ -19,15 +19,20 @@ At the end we clustered the customers based on their RFM values obtained before.
 ## Methods
 
 ### EDA
-We looked at the distributions of our features and the first thing we noticed was the unbalancness of the Customer City, Seller City, Customer State and Seller State.
-We needed to transform them into numeric values but the classical encodings were either wrong (LabelEncoder) or needed to much computational costs (OneHotEncoder). We decided to use the LeaveOneOutEncoder which encodes the categories based on its frequency.
-We transformed the order_status, payment_type, product_category_name_english columns with a classical label encoder.
+
+We looked at the distributions of our features and the first thing we noticed was that Customer City, Seller City, Customer State and Seller State had a very long tail.
+We needed to transform them into numeric values but the classical encodings were either wrong (LabelEncoder) or needed to much computational costs (OneHotEncoder). We decided to use the TargetEncoder which encodes the categories based on its frequency.
+Also other variables such as price, payment_value and fright_value had a long tail and the majority of the value were close to zero.
+We decided to dont apply any transformations since the results resulted very different.
+We then transformed the order_status, payment_type, product_category_name_english columns with a classical label encoder.
 To deal with the datetime object we used the timestamp method to transform them into numbers.
+The dataset had no null values, but had 83 duplicated that we removed.
+Only tyhe price and the payment_value had an hiugh correlation of 76% but we decided not to remove.
 
 ### Market Segmentation
 We created 3 features:
-- Recency: we found the most recent purchase date, we grouped by customer and evaluated the recency. 
-- Frequency: we grouped by customer evalueted the frequency by checking the item per order of each customer
+- Recency: we found the most recent purchase date as the maximum of the purchase_date column. We then grouped by customer and found the most recenct purchase date and subtracted it from the maximum of the purchase_date column.  
+- Frequency: We calculated the frequency of unique items per order for each customerby grouping the data by 'customer_unique_id' and then counting the number of unique values in the 'item_per_order' column for each group.
 - Monetary: we grouped by customer and evaluated the monetary by summing the payment values.
 
 ### Clustering
