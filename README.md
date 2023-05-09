@@ -5,10 +5,8 @@ Customer Segmentation Based on RFM Analysis
 
 ## Members: 
 Giacomo Rossi - 763391
-
-Flavia Martini - 
-
-Fraia
+Flavia Martini - 766881
+Fraia Pérez-Rayon - E13137 
 
 ## Introduction
 The aim of this project is to predict the customer segmentation based on the RFM analysis. The RFM analysis is a measure of the frequency, recency and monetary of purchases of the same customer.
