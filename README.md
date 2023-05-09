@@ -95,15 +95,15 @@ The results are the following:
 
   This cluster has the `2nd highest recency`, it has the `3rd highest monetary value` and it has a `medium frequency`. It has `a medium amount of observations`.
 
-Cluster 0 (purple cluster) identifies the top customers. They are the customers that spemd the most , they have boght recently, and they have the most items for each order. The goal with them is to keep them as they are without losing them.
+**Cluster 0 (purple cluster)** identifies the top customers. They are the customers that spemd the most , they have boght recently, and they have the most items for each order. The goal with them is to keep them as they are without losing them.
 
-Cluster 1 (orange cluster) identifies the new customers, those that have just bought few products at a low price. Our goal here is to make them spend more and try to make them buy again, avoiding to make them follow in the previous Cluster.
+**Cluster 1 (orange cluster)** identifies the new customers, those that have just bought few products at a low price. Our goal here is to make them spend more and try to make them buy again, avoiding to make them follow in the previous Cluster.
 
-Cluster 2 (blue cluster) indentifies that group of customer that haven't bought for a long time. So we can identify them as the 'Lost Customers' and our goal is to make tham buy again. 
+**Cluster 2 (blue cluster)** indentifies that group of customer that haven't bought for a long time. So we can identify them as the 'Lost Customers' and our goal is to make tham buy again. 
 
-Cluster 3 (green cluster) identifies the customers that 
+**Cluster 3 (green cluster)** identifies that group of customers that have bought recently and that buy an high amount of products per order and that spend almost as the Cluster 0. The goal for these customer is to raise average receipt so that they fall into the Top Curtomer Cluster.
 
-Cluster 4 (red cluster) identifies the customers that 
+**Cluster 4 (red cluster)** identifies the average customer, that have bought recently, a moderate amout of items per order and they spent a moderate amount of money. 
 
 
 
