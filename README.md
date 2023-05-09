@@ -12,7 +12,7 @@ Fraia Pérez-Rayon - E13137
 
 ## Introduction
 The aim of this project is to predict the customer segmentation based on the RFM analysis. The RFM analysis is a measure of the frequency, recency and monetary of purchases of the same customer.
-We started with an Exploratory Data Analysis with the aim of checking the presence of null values, duplivates and check the distributions of the features. 
+We started with an Exploratory Data Analysis with the aim of checking the presence of null values, duplicates and check the distributions of the features. 
 We then used the RFM analysis to predict the customer segmentation.
 At the end we clustered the customers based on their RFM values obtained before.
 
@@ -23,17 +23,17 @@ At the end we clustered the customers based on their RFM values obtained before.
 We looked at the distributions of our features and the first thing we noticed was that Customer City, Seller City, Customer State and Seller State had a very long tail.
 We needed to transform them into numeric values but the classical encodings were either wrong (LabelEncoder) or needed to much computational costs (OneHotEncoder). We decided to use the TargetEncoder which encodes the categories based on its frequency.
 Also other variables such as price, payment_value and fright_value had a long tail and the majority of the value were close to zero.
-We decided to dont apply any transformations since the results resulted very different.
+We decided to not apply any transformations, since the results were very different.
 We then transformed the order_status, payment_type, product_category_name_english columns with a classical label encoder.
 To deal with the datetime object we used the timestamp method to transform them into numbers.
 The dataset had no null values, but had 83 duplicated that we removed.
-Only tyhe price and the payment_value had an hiugh correlation of 76% but we decided not to remove.
+Only the price and the payment_value had a high correlation of 76% but we decided not to remove any of the variables.
 
 ### Market Segmentation
 We created 3 features:
 - Recency: we found the most recent purchase date as the maximum of the purchase_date column. We then grouped by customer and found the most recenct purchase date and subtracted it from the maximum of the purchase_date column.  
-- Frequency: We calculated the frequency of unique items per order for each customerby grouping the data by 'customer_unique_id' and then counting the number of unique values in the 'item_per_order' column for each group.
-- Monetary: we grouped by customer and evaluated the monetary by summing the payment values.
+- Frequency: We calculated the frequency of unique items per order for each customer. This was done by grouping the data by 'customer_unique_id' and then counting the number of unique values in the 'item_per_order' column for each group.
+- Monetary: we grouped by customer and evaluated the monetary value by summing up the payment values.
 
 ### Clustering
 We scaled the data with a Standard Scaler.
