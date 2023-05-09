@@ -75,7 +75,7 @@ Moving to the Business implication, we can also identify the meaning of each clu
 
 The results are the following:
 
-* **Cluster 0: Blue**
+* **Cluster 0: Purple**
 
   This cluster has the `highest monetary value`, the `2rd highest recency value`, it has the `highest frequency` but it has only `few observations (28)`.
 
@@ -83,19 +83,32 @@ The results are the following:
 
   This is the cluster with the `most recent purchases`, but is has the `lowest monetary value` and the `lowest frequency`. It is the cluster with `the most observations`.
 
-* **Cluster 2: Green**
+* **Cluster 2: Blue**
 
   This is the cluster with the `highest recency value (longer time since last buy)`, and has the `2nd lowest monetary value` and the `2nd lowest frequency`. It is the `2nd cluster by size`.
 
-* **Cluster 3: Red**
+* **Cluster 3: Green**
 
   This cluster has the `3nd lowest recency` and has the `2nd highest monetary value`. It has the `2nd highest frequency` but it has `few observations`.
 
-* **Cluster 4: Purple**
+* **Cluster 4: Red**
 
   This cluster has the `2nd highest recency`, it has the `3rd highest monetary value` and it has a `medium frequency`. It has `a medium amount of observations`.
+
+Cluster 0 (purple cluster) identifies the top customers. They are the customers that spemd the most , they have boght recently, and they have the most items for each order. The goal with them is to keep them as they are without losing them.
+
+Cluster 1 (orange cluster) identifies the new customers, those that have just bought few products at a low price. Our goal here is to make them spend more and try to make them buy again, avoiding to make them follow in the previous Cluster.
+
+Cluster 2 (blue cluster) indentifies that group of customer that haven't bought for a long time. So we can identify them as the 'Lost Customers' and our goal is to make tham buy again. 
+
+Cluster 3 (green cluster) identifies the customers that 
+
+Cluster 4 (red cluster) identifies the customers that 
+
+
+
 
 
 ## Conclusions
 
-Decide how and which cluster to target.
+
