@@ -44,7 +44,12 @@ To choose the best number of clusters we used the elbow method and the KneeLocat
 ## Experimental Design
 To segment the customer in the best way possible we tried both the K-Means algorithm and the Hierarchical Clustering algorithm.
 We started with the K-Means algorithm that took just few second to train. To find the optimal number of clusters we decided to use the Scree Plot and the KneeLocator algorithm. These methods combined are both fast and intuitive from a business point of view.
-
+The optimal number of cluster turned out to be 5 and the distribution of the clusters are the following:
+- 1: 6309
+- 0: 6229
+- 3: 986
+- 2: 162
+- 4: 32
 
 ## Results
 The results are the following:
