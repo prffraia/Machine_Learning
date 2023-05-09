@@ -70,10 +70,11 @@ Moving to the results of the clustering, we can show a 3D plot of the clusters t
 
 ![image](https://github.com/giakomorssi/Machine_Learning/assets/115655415/a034a143-020c-4dea-8584-ca247424bb64)
 
-![image](https://github.com/giakomorssi/Machine_Learning/assets/115655415/3a443c01-16b9-4805-a09f-32d09aa0a1bf)
+From the plot we can see that the cluster are well separated.ù
+Moving to the Business implication, we can also identify the meaning of each cluster so we can understand the customers and be able to target them accordingly.
 
 The results are the following:
-We identified 5 clusters.
+
 * **Cluster 0: Blue**
 
   This cluster has the `highest monetary value`, the `2rd highest recency value`, it has the `highest frequency` but it has only `few observations (28)`.
