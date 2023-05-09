@@ -68,6 +68,8 @@ To conclude, we decided to use the K-Means algorithm for its low computational c
 ## Results
 Moving to the results of the clustering, we can show a 3D plot of the clusters to see their distribution.
 
+![image](https://github.com/giakomorssi/Machine_Learning/assets/115655415/a034a143-020c-4dea-8584-ca247424bb64)
+
 ![image](https://github.com/giakomorssi/Machine_Learning/assets/115655415/3a443c01-16b9-4805-a09f-32d09aa0a1bf)
 
 The results are the following:
