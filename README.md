@@ -50,8 +50,22 @@ The optimal number of cluster turned out to be 5 and the distribution of the clu
 - 3: 986
 - 2: 162
 - 4: 32
+As we can see we have 2 clusters that have the highest number of observations, one cluster with a moderate amount, and 2 cluster with few observations. This division is reasonable as we will see in the Results and Business Implication.
+Following with the Hierarchical Clustering algorithm, the first thing we noticed was the high computational cost compared to the K-Means algorithm.
+Moreover, to select the optimal number of cluster, we used instead the Silhouette method. This method is more accurate than the Scree Plot but is less intuitive. 
+The number of clustrers turned out to be 5 as well with the following distribution:
+0: 8535
+2: 4543
+3: 411
+1: 201
+4: 28
+The distributions are very different from one another. 
+The Hierarchical Clustering has one cluster containing 65% of the observations.
+To conclude, we decided to use the K-Means algorithm for its low computational cost, interpretability and results. 
 
 ## Results
+
+![image](https://github.com/giakomorssi/Machine_Learning/assets/115655415/3a443c01-16b9-4805-a09f-32d09aa0a1bf)
 The results are the following:
 We identified 5 clusters.
 * **Cluster 0: Blue**
