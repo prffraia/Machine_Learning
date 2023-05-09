@@ -5,7 +5,9 @@ Customer Segmentation Based on RFM Analysis
 
 ## Members: 
 Giacomo Rossi - 763391
+
 Flavia Martini - 766881
+
 Fraia Pérez-Rayon - E13137 
 
 ## Introduction
