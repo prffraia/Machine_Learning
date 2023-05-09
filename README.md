@@ -42,9 +42,9 @@ The results were very similar but in terms of computational cost the K-Means alg
 To choose the best number of clusters we used the elbow method and the KneeLocator algorithm.
 
 ## Experimental Design
+To segment the customer in the best way possible we tried both the K-Means algorithm and the Hierarchical Clustering algorithm.
+We started with the K-Means algorithm that took just few second to train. To find the optimal number of clusters we decided to use the Scree Plot and the KneeLocator algorithm. These methods combined are both fast and intuitive from a business point of view.
 
-List here both the Kmeans and the Hierarchical Clustering.
-explain the comparison.
 
 ## Results
 The results are the following:
