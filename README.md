@@ -31,8 +31,7 @@ The third feature, Monetary, involved evaluating the monetary value of each cust
 The creation of these new features allowed us to gain insights into customer behavior by providing a more granular understanding of the recency, frequency, and monetary value of their purchases. 
 
 ### Clustering
-As part of our study, we standardized the data using a Standard Scaler before applying clustering algorithms. We then utilized both the K-Means algorithm and the Hierarchical Clustering algorithm to cluster the data into distinct groups.
-Although the two algorithms produced similar results, we found that the K-Means algorithm had a lower computational cost, making it the better choice for our study.
+As part of our study, we standardized the data using a Standard Scaler before applying clustering algorithms. We then utilized the K-Means algorithm to cluster the data into distinct groups.
 To determine the optimal number of clusters for our data, we utilized both the elbow method and the KneeLocator algorithm. These methods allowed us to effectively visualize the variance explained by the different numbers of clusters, and select the optimal number of clusters based on the point of maximum curvature.
 
 
