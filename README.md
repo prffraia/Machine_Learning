@@ -100,11 +100,14 @@ identifies a group of customers who have made recent purchases and tend to buy a
 This cluster has the 2nd highest recency, it has the 3rd highest monetary value and it has a medium frequency. It has a medium amount of observations.
 It represents the average customer who has made recent purchases, buys a moderate amount of items per order, and spends a moderate amount of money. Our goal with this cluster is to encourage them to increase their spending and buy more items per order, with the aim of moving them towards the Top Customers cluster.
 
-
-
-
-
-
 ## Conclusions
 
+Which cluster to target
+
+## Appendix A: Code Description
+
+### 01_EDA.ipynb
+
+We provided the Notebook on the GitHub page with also the link to the colab notebook. The two files are slightly dfferent.
+If you wish to run the one loaded in the GitHub page, you have to make sure the dataset is in the same directory
 
