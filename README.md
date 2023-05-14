@@ -75,21 +75,27 @@ In order to visualize the distribution of the clusters in a three-dimensional sp
 
 Each cluster is represented by a different color, and the axes correspond to the RFM values of recency, frequency, and monetary. 
 The plot shows that the clusters are clearly separated and have distinct ranges of RFM values. This visualization gives us a clear understanding of how the clusters are separated in the RFM space.
+
 Regarding the business implication of the clustering results, we can identify the characteristics and behavior of each cluster to gain insights that can be used to tailor marketing strategies and improve customer experience. By understanding the different segments of customers, companies can allocate their resources more efficiently and effectively. 
 
 The results are the following:
+
 **•	Cluster 0: Purple**
 This cluster has the highest monetary value, the 2rd highest recency value, it has the highest frequency, but it has only few observations (28).
 It identifies the top customers. They are the customers that spemd the most , they have boght recently, and they have the most items for each order. The goal with them is to keep them as they are without losing them.
+
 **•	Cluster 1: Orange**
 This is the cluster with the most recent purchases, but is has the lowest monetary value and the lowest frequency. It is the cluster with the most observations.
 This cluster identifies the new customers who have made only a few purchases at a relatively low price. Our goal here is to encourage them to increase their spending and make repeat purchases, thereby preventing them from falling into the previous cluster.
+
 **•	Cluster 2: Blue**
 This is the cluster with the highest recency value (longer time since last buy), and has the 2nd lowest monetary value and the 2nd lowest frequency. It is the 2nd cluster by size.
 This cluster identifies a group of customers who haven't made a purchase in a long time. We can refer to them as "Lost Customers," and our objective is to re-engage with them and encourage them to make a purchase again.
+
 **•	Cluster 3: Green**
 This cluster has the 3nd lowest recency and has the 2nd highest monetary value. It has the 2nd highest frequency but it has few observations.
 identifies a group of customers who have made recent purchases and tend to buy a high quantity of products per order while spending nearly as much as the Top Customer Cluster (Cluster 0). The goal for these customers is to increase their average spending to move them into the Top Customer Cluster.
+
 **•	Cluster 4: Red**
 This cluster has the 2nd highest recency, it has the 3rd highest monetary value and it has a medium frequency. It has a medium amount of observations.
 It represents the average customer who has made recent purchases, buys a moderate amount of items per order, and spends a moderate amount of money. Our goal with this cluster is to encourage them to increase their spending and buy more items per order, with the aim of moving them towards the Top Customers cluster.
