@@ -41,9 +41,13 @@ In order to identify the optimal number of clusters for our data, we employed bo
 The optimal number of clusters was found to be 5, with each cluster exhibiting distinct distribution patterns. The resulting distribution of clusters can provide valuable insights for targeted marketing and business strategies:
 
 Cluster 1: 6309
+
 Cluster 0: 6229
+
 Cluster 3: 986
+
 Cluster 2: 162
+
 Cluster 4: 32
 
 Upon examining the cluster distribution obtained from the K-Means algorithm, we observed that two clusters had the highest number of observations, one cluster had a moderate amount, and the remaining two clusters had a relatively small number of observations. This clustering scheme appeared to be reasonable, as it aligned with our business objectives, as outlined in the Results and Business Implications section.
