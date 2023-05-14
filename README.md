@@ -69,7 +69,11 @@ The distributions of the clusters obtained from the K-Means and Hierarchical Clu
 
 
 ## Results
-In order to visualize the distribution of the clusters in a three-dimensional space, we created a 3D plot. Each cluster is represented by a different color, and the axes correspond to the RFM values of recency, frequency, and monetary. 
+In order to visualize the distribution of the clusters in a three-dimensional space, we created a 3D plot. 
+
+![image](https://github.com/giakomorssi/Machine_Learning/assets/115655415/435ce6ff-6be8-4e51-9967-5fb1044bf6d2)
+
+Each cluster is represented by a different color, and the axes correspond to the RFM values of recency, frequency, and monetary. 
 The plot shows that the clusters are clearly separated and have distinct ranges of RFM values. This visualization gives us a clear understanding of how the clusters are separated in the RFM space.
 Regarding the business implication of the clustering results, we can identify the characteristics and behavior of each cluster to gain insights that can be used to tailor marketing strategies and improve customer experience. By understanding the different segments of customers, companies can allocate their resources more efficiently and effectively. 
 
