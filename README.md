@@ -109,5 +109,21 @@ Which cluster to target
 ### 01_EDA.ipynb
 
 We provided the Notebook on the GitHub page with also the link to the colab notebook. The two files are slightly dfferent.
-If you wish to run the one loaded in the GitHub page, you have to make sure the dataset is in the same directory
+If you wish to run the one loaded in the GitHub page, you have to make sure the dataset customer_segmentation.csv is in the same directory of this notebook. 
+If running on colab, clicking on the link on top of the notebook, you have to put the dataset in the drive and inseart in the read_csv the path.
+This file will create a new dataset called 'customer_segmentation_EDA.csv' that will be used in the following notebook.
+
+### 02_MarketSegmentation.ipynb
+
+We provided the Notebook on the GitHub page with also the link to the colab notebook. The two files are slightly dfferent.
+If you wish to run the one loaded in the GitHub page, you have to make sure the dataset customer_segmentation_EDA.csv is in the same directory of this notebook. 
+If running on colab, clicking on the link on top of the notebook, you have to put the dataset in the drive and inseart in the read_csv the path.
+This file will create a new dataset called 'customer_segmentation_RFM.csv' that will be used in the following notebook.
+
+### 03_Clustering.ipynb
+
+We provided the Notebook on the GitHub page with also the link to the colab notebook. The two files are slightly dfferent.
+If you wish to run the one loaded in the GitHub page, you have to make sure the dataset customer_segmentation_RFM.csv is in the same directory of this notebook. 
+If running on colab, clicking on the link on top of the notebook, you have to put the dataset in the drive and inseart in the read_csv the path.
+
 
