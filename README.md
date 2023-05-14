@@ -51,9 +51,13 @@ Upon examining the cluster distribution obtained from the K-Means algorithm, we 
 Next, the Hierarchical Clustering algorithm exhibited a higher computational cost compared to the K-Means algorithm. To determine the optimal number of clusters, we employed the Silhouette method. Although this method is more accurate than the Scree Plot, it is less intuitive.
 Our analysis revealed that the optimal number of clusters using the Hierarchical Clustering algorithm was also 5, and the resulting cluster distribution is presented below:
 Cluster 0: 8535
+
 Cluster 2: 4543
+
 Cluster 3: 411
+
 Cluster 1: 201
+
 Cluster 4: 28
 
 The distributions of the clusters obtained from the K-Means and Hierarchical Clustering algorithms are notably dissimilar, with the latter showing one cluster containing the majority of observations, resulting to be the 65% of the total observations. After careful consideration, we decided to use the K-Means algorithm for its low computational cost, interpretability, and consistent results. The choice of algorithm was made after analyzing the distribution of the clusters and evaluating the advantages and drawbacks of each approach.
