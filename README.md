@@ -8,7 +8,7 @@ Giacomo Rossi - 763391
 
 Flavia Martini - 766881
 
-Fraia Pérez-Rayon - E13137 
+Fraia Pérez-Rayón - E13137 
 
 ## Introduction
 The aim of this project is to predict the customer segmentation based on the RFM analysis. The RFM analysis is a measure of the frequency, recency and monetary of purchases of the same customer. 
@@ -81,19 +81,19 @@ Regarding the business implication of the clustering results, we can identify th
 The results are the following:
 
 **•	Cluster 0: Purple**
-This cluster has the highest monetary value, the 2rd highest recency value, it has the highest frequency, but it has only few observations (28).
-It identifies the top customers. They are the customers that spemd the most , they have boght recently, and they have the most items for each order. The goal with them is to keep them as they are without losing them.
+This cluster has the highest monetary value, the 2nd highest recency value, it has the highest frequency, but it has only few observations (28).
+It identifies the top customers. They are the customers that spend the most, are the most recent buyers, and have purchased the highest amount of items per order. The goal is to hold on to them and not lose them.
 
 **•	Cluster 1: Orange**
 This is the cluster with the most recent purchases, but is has the lowest monetary value and the lowest frequency. It is the cluster with the most observations.
-This cluster identifies the new customers who have made only a few purchases at a relatively low price. Our goal here is to encourage them to increase their spending and make repeat purchases, thereby preventing them from falling into the previous cluster.
+This cluster identifies the new customers who have made only a few purchases at a relatively low price. Our goal here is to encourage them to increase their spending and make repeated purchases, thereby preventing them from falling into the previous cluster.
 
 **•	Cluster 2: Blue**
-This is the cluster with the highest recency value (longer time since last buy), and has the 2nd lowest monetary value and the 2nd lowest frequency. It is the 2nd cluster by size.
+This is the cluster with the highest recency value (longest time since last purchase), and has the 2nd lowest monetary value and the 2nd lowest frequency. It is the 2nd cluster by size.
 This cluster identifies a group of customers who haven't made a purchase in a long time. We can refer to them as "Lost Customers," and our objective is to re-engage with them and encourage them to make a purchase again.
 
 **•	Cluster 3: Green**
-This cluster has the 3nd lowest recency and has the 2nd highest monetary value. It has the 2nd highest frequency but it has few observations.
+This cluster has the 3rd lowest recency and has the 2nd highest monetary value. It has the 2nd highest frequency but it has few observations.
 identifies a group of customers who have made recent purchases and tend to buy a high quantity of products per order while spending nearly as much as the Top Customer Cluster (Cluster 0). The goal for these customers is to increase their average spending to move them into the Top Customer Cluster.
 
 **•	Cluster 4: Red**
@@ -102,7 +102,7 @@ It represents the average customer who has made recent purchases, buys a moderat
 
 ## Conclusions
 
-Which cluster to target
+All in all, while it would be ideal to target each cluster with tailored marketing campaigns, the factor of cost and time efficiency can't go unnocticed. Therefore, we could proceed as follows: The Purple and Red clusters could be considered as what are known as "Loyal Customers". 
 
 ## Appendix A: Code Description
 
