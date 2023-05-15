@@ -40,15 +40,16 @@ To accurately segment our customers, we compared the results obtained from both 
 In order to identify the optimal number of clusters for our data, we employed both the Scree Plot and the KneeLocator algorithm. These methods were chosen due to their speed and ease of interpretation, which is critical from a business perspective.
 The optimal number of clusters was found to be 5, with each cluster exhibiting distinct distribution patterns. The resulting distribution of clusters can provide valuable insights for targeted marketing and business strategies:
 
-Cluster 1: 6309
-
 Cluster 0: 6229
 
-Cluster 3: 986
+Cluster 1: 6309
 
 Cluster 2: 162
 
+Cluster 3: 986
+
 Cluster 4: 32
+
 
 Upon examining the cluster distribution obtained from the K-Means algorithm, we observed that two clusters had the highest number of observations, one cluster had a moderate amount, and the remaining two clusters had a relatively small number of observations. This clustering scheme appeared to be reasonable, as it aligned with our business objectives, as outlined in the Results and Business Implications section.
 
@@ -80,29 +81,25 @@ Regarding the business implication of the clustering results, we can identify th
 
 The results are the following:
 
-**•	Cluster 0: Purple**
-This cluster has the highest monetary value, the 2rd highest recency value, it has the highest frequency, but it has only few observations (28).
-It identifies the top customers. They are the customers that spemd the most , they have boght recently, and they have the most items for each order. The goal with them is to keep them as they are without losing them.
+**Cluster 0 (Blue):** 
+2nd largest in size, 2nd lowest regarding monetary value (customers who spend less), 2nd smallest in frequency (customers who purchase less frequently), and the highest in recency (customers who haven’t purchased anything in the longest time). Customers in this segment could be referred to as lost customers. 
 
-**•	Cluster 1: Orange**
-This is the cluster with the most recent purchases, but is has the lowest monetary value and the lowest frequency. It is the cluster with the most observations.
-This cluster identifies the new customers who have made only a few purchases at a relatively low price. Our goal here is to encourage them to increase their spending and make repeat purchases, thereby preventing them from falling into the previous cluster.
+**Cluster 1 (Orange):**
+It is the largest in size and the smallest in monetary value and frequency. Nonetheless, it is the segment which has most recent purchases. This segment is most likely composed of new customers. Customers who have just gotten to know the brand and made their first purchase. This cluster is crucial for the company to increase their market share. The customer experience and satisfaction after the first purchase will determine, whether the company will manage to retain the customer or not. 
 
-**•	Cluster 2: Blue**
-This is the cluster with the highest recency value (longer time since last buy), and has the 2nd lowest monetary value and the 2nd lowest frequency. It is the 2nd cluster by size.
-This cluster identifies a group of customers who haven't made a purchase in a long time. We can refer to them as "Lost Customers," and our objective is to re-engage with them and encourage them to make a purchase again.
+**Cluster 2 (Green):**
+2nd smallest in size. 2nd highest in monetary value, 2nd highest in frequency and has medium recency. These customers tend to belong to what are known as loyal customers. 
 
-**•	Cluster 3: Green**
-This cluster has the 3nd lowest recency and has the 2nd highest monetary value. It has the 2nd highest frequency but it has few observations.
-identifies a group of customers who have made recent purchases and tend to buy a high quantity of products per order while spending nearly as much as the Top Customer Cluster (Cluster 0). The goal for these customers is to increase their average spending to move them into the Top Customer Cluster.
+**Cluster 3 (Red):**
+Midsized cluster. 3rd largest/smallest in monetary value, 3rd highest/lowest in frequency and are in second place regarding most recent purchase. Some customers in this segment could potentially become loyal customers.
 
-**•	Cluster 4: Red**
-This cluster has the 2nd highest recency, it has the 3rd highest monetary value and it has a medium frequency. It has a medium amount of observations.
-It represents the average customer who has made recent purchases, buys a moderate amount of items per order, and spends a moderate amount of money. Our goal with this cluster is to encourage them to increase their spending and buy more items per order, with the aim of moving them towards the Top Customers cluster.
+**Cluster 4 (Purple):**
+Smallest in size. Highest in monetary value, purchase the most frequently but are the second segment which has not purchased in the longest time (after the lost customers in cluster 0). Even though, they may be considered as the most loyal customers, this last point may be somewhat alarming. It’s important to address this issue by incentivizing loyal customers through targeted emails and promotions to purchase again to decrease the recency value. 
 
 ## Conclusions
 
-Which cluster to target
+All in all, after an extensive analysis of the data, we came to conclude the following: 
+Firstly, our most loyal customers, belonging to cluster 4 and 2, interestingly have relatively high recency values. Meaning, that they haven’t purchased anything recently. It would be important to address this issue, by incentivizing loyal customers to purchase again through target emails and promotions. Our loyal customers are crucial to the company, since regardless of the size, these customers are typically satisfied with the products or services provided by the business and have established a positive relationship with the brand over time. Furthermore, they are also helpful in the sense of attracting new customers through word of mouth, a crucial marketing strategy for increasing market share. Additionally, regarding this last aspect of increasing market share, cluster 1 represents a good opportunity for the latter. To retain new customers the so-called post-purchase experience will be crucial. It will be determined by whether the product or service reached, or even better, surpassed customer expectations. If it is the case, then the company will most likely retain the customer, otherwise, they’ll move towards cluster 0, and become lost customers. Cluster 3 could also be targeted through the same marketing campaign used for cluster 1, by trying to increase customer retention and move them towards cluster 2 and 4, thus avoid them from moving towards cluster 0.  
 
 ## Appendix A: Code Description
 
